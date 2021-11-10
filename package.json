@@ -3,14 +3,18 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && tailwindcss -i tailwind.css -o style.css",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "axios": "^0.24.0",
     "next": "12.0.2",
+    "postcss": "^8.3.11",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
     "@types/node": "16.11.6",
