@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button {
+  display: block;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+}
+
+
+
+.theme-main {
+  background-color: #c4c4c4;
+}
+
+.theme-second {
+  background-color: #809565;
+}
