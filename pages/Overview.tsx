@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export const Overview = () => {
   return (
-    <div className="container mx-auto max-w-4xl py-5 my-10 theme-main">
-      <h1 className="text-center ">Welcome to Vocabdemy</h1>
+    <div className="h-screen mx-auto max-w-4xl py-5 theme-main">
+      <h1 className="text-center text-3xl font-bold">Welcome to Vocabdemy</h1>
       <div className="theme-second py-10 m-10 rounded max-w-sm mx-auto">
         <button className="text-left theme-main mx-10 my-8 rounded py-5 px-3 flex-row flex space-x-4">
           <h1 className="flex-1">Review Vocab</h1>
