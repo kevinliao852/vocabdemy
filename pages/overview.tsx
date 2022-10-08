@@ -13,7 +13,7 @@ export const Overview = () => {
           <h1 className="flex-1">Suggest New Vocab</h1>
           <SuggestIcon />
         </button>
-        <Link href="addVocab/" passHref>
+        <Link href="add-vocab/" passHref>
           <button className="text-left theme-main mx-10 my-8 rounded py-5 px-3 flex-row flex space-x-4">
             <h1 className="flex-1">Add New Vocab</h1>
             <AddIcon />

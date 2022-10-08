@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Overview } from "./Overview";
+import { Overview } from "./overview";
 
 const Home: NextPage = () => {
   return <Overview />;
